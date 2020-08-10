@@ -43,14 +43,14 @@ function Button(props) {
       );
     } else {
       return (
-        <link
+        <Link
           href={props.href}
           className={className.join(" ")}
           style={props.style}
           onClick={onClick}
         >
           {props.children}
-        </link>
+        </Link>
       );
     }
   }
