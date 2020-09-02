@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#A95DA2;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#884282;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<path id="XMLID_22_" class="st0" d="M614.9,237.3v302.5c0,86.5-70.8,157.3-157.3,157.3H155c-86.5,0-157.3-70.8-157.3-157.3V237.3
+	C-2.3,150.8,68.5,80,155,80h302.5C544.1,80,614.9,150.8,614.9,237.3z"/>
+<path id="XMLID_21_" class="st1" d="M447.7,273.1l81.8,51.5l85.4,50.5v164.8c0,86.5-70.8,157.3-157.3,157.3H232.1L22,481.5
+	L447.7,273.1L447.7,273.1z"/>
+<rect id="XMLID_19_" x="146.3" y="264.1" class="st1" width="319.9" height="187.7"/>
+<g id="XMLID_24_">
+	<path id="XMLID_31_" class="st2" d="M529.5,411.6c0,12-9.9,21.9-21.9,21.9H100.1c-12,0-22.6-9.9-22.6-21.9V283
+		c0-12,10.6-21.5,22.6-21.5h407.5c12,0,21.9,9.5,21.9,21.5V411.6z"/>
+	<path id="XMLID_30_" class="st2" d="M77.5,470.9c0,12-8.9,22.6-20.9,22.6H34.8c-12,0-23.3-10.6-23.3-22.6V324.5
+		c0-12,11.3-22,23.3-22h21.8c12,0,20.9,10,20.9,22V470.9z"/>
+	<path id="XMLID_29_" class="st2" d="M593.5,470.9c0,12-8.7,22.6-20.7,22.6h-21.8c-12,0-21.6-10.6-21.6-22.6V324.5
+		c0-12,9.6-22,21.6-22h21.8c12,0,20.7,10,20.7,22V470.9z"/>
+	<rect id="XMLID_28_" x="77.5" y="433.5" class="st2" width="452" height="48"/>
+	<path id="XMLID_27_" class="st2" d="M63.5,502.5c0,8.5-4,12-8.9,12H36.8c-4.9,0-8.9-3.5-8.9-12l0,0c0-8.5,4-12,8.9-12h17.8
+		C59.5,490.5,63.5,494,63.5,502.5L63.5,502.5z"/>
+	<path id="XMLID_26_" class="st2" d="M579.8,502.5c0,8.5-4,12-8.9,12H553c-4.9,0-8.9-3.5-8.9-12l0,0c0-8.5,4-12,8.9-12h17.8
+		C575.8,490.5,579.8,494,579.8,502.5L579.8,502.5z"/>
+	<path id="XMLID_25_" class="st2" d="M529.5,411.6c0,12-9.9,21.9-21.9,21.9H100.1c-12,0-22.6-9.9-22.6-21.9v-27.7
+		c0-12,10.6-21.4,22.6-21.4h407.5c12,0,21.9,9.3,21.9,21.4V411.6z"/>
+</g>
+</svg>

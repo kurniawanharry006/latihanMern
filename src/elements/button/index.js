@@ -29,7 +29,7 @@ function Button(props) {
   }
 
   if (props.type === "link") {
-    if (props.isExternak) {
+    if (props.isExternal) {
       return (
         <a
           href={props.href}
@@ -44,7 +44,7 @@ function Button(props) {
     } else {
       return (
         <Link
-          href={props.href}
+          to={props.href}
           className={className.join(" ")}
           style={props.style}
           onClick={onClick}
@@ -54,6 +54,7 @@ function Button(props) {
       );
     }
   }
+ 
   return (
     <button
       className={className.join(" ")}
@@ -70,12 +71,13 @@ export default Button;
 Button.propTypes = {
   type: propTypes.oneOf(["button", "link"]),
   onClick: propTypes.func,
-  target: propTypes.string,
   href: propTypes.string,
+  target: propTypes.string,
   className: propTypes.string,
-  isDisabled: propTypes.bool,
-  isPrimary: propTypes.bool, 
+  isPrimary: propTypes.bool,
+  isLight: propTypes.bool,
   isExternal: propTypes.bool,
+  isDisabled: propTypes.bool,
   isLoading: propTypes.bool,
   isSmall: propTypes.bool,
   isLarge: propTypes.bool,
