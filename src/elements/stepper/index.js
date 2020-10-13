@@ -1,23 +1,25 @@
-import React, { useState } from 'react'
+import React,{useState} from 'react'
 import propTypes from 'prop-types'
 
 
 export default function Stepper(props) {
-    const {steps, initialStep} = props
-    const stepKeys = Object.keys(steps)
 
-    const {CurrentStep, setCurrentStep} = useState(
-        stepKeys.indexOf(initialStep) > -1 ? initialStep:stepKeys[0]
+    const {steps,initialStep} = props
+    const stepsKeys = Object.keys(steps)
+
+    const [CurrentStep,setCurrentStep] = useState(
+        stepsKeys.indexOf(initialStep) > -1 ? initialStep : stepsKeys[0]
     )
 
-    const totalStep = stepKeys.length
-    const indexStep = stepKeys.indexOf(CurrentStep)
+    const totalStep = stepsKeys.length
+    const indexStep = stepsKeys.indexOf(CurrentStep)
 
     function prevStep(){
-        if(+indexStep > 0) setCurrentStep(stepKeys[indexStep -1])
+        if(+indexStep > 0) setCurrentStep(stepsKeys[indexStep - 1])
     }
+
     function nextStep(){
-        if(+indexStep < totalStep) setCurrentStep(stepKeys[indexStep + 1])
+        if(+indexStep < totalStep)setCurrentStep(stepsKeys[indexStep + 1])
     }
 
     return (
@@ -27,10 +29,9 @@ export default function Stepper(props) {
     )
 }
 
-
-Stepper.propTypes = {
+Stepper.propTypes={
     data:propTypes.object.isRequired,
-    initialStep:propTypes.string
+    initialStep:propTypes.string,
 }
 
 export { default as Numbering } from "./Numbering";
